@@ -13,7 +13,7 @@
 ## Installation
 
 ```sh
-
+go get github.com/Lord-Jerry/logsnag.go
 ```
 
 ## Usage
@@ -21,7 +21,7 @@
 ### Import Library
 
 ```go
-import LogSnag "logsnag" 
+import LogSnag "github.com/Lord-Jerry/logsnag.go" 
 ```
 
 ### Initialize Client
@@ -29,7 +29,7 @@ import LogSnag "logsnag"
 ```go
 package main
 
-import LogSnag "logsnag"
+import LogSnag "github.com/Lord-Jerry/logsnag.go"
 
 func main() {
 	logsnag := LogSnag.NewLogSnag("7f568d735724351757637b1dbf108e5", "my-saas", false)
@@ -43,7 +43,7 @@ package main
 
 import (
 	"fmt"
-	LogSnag "logsnag"
+	LogSnag "github.com/Lord-Jerry/logsnag.go"
 )
 
 func main() {
@@ -73,7 +73,7 @@ package main
 
 import (
 "fmt"
-LogSnag "logsnag"
+LogSnag "github.com/Lord-Jerry/logsnag.go"
 )
 
 func main() {
@@ -101,7 +101,7 @@ package main
 
 import (
 	"fmt"
-	LogSnag "logsnag"
+	LogSnag "github.com/Lord-Jerry/logsnag.go"
 )
 
 func main() {
@@ -130,7 +130,7 @@ package main
 
 import (
 	"fmt"
-	LogSnag "logsnag"
+	LogSnag "github.com/Lord-Jerry/logsnag.go"
 )
 
 func main() {
@@ -155,7 +155,7 @@ package main
 
 import (
 	"fmt"
-	LogSnag "logsnag"
+	LogSnag "github.com/Lord-Jerry/logsnag.go"
 )
 
 func main() {
